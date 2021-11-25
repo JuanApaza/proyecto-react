@@ -1,10 +1,14 @@
 
-import './App.css';
+import { Body } from "./componentes/Body";
+import { Header } from "./componentes/Header";
+import { Pie } from "./componentes/Pie";
 
 function App() {
   return (
     <div className="App">
-      pp
+      <Header/>
+      <Body/>
+      <Pie/>
     </div>
   );
 }
